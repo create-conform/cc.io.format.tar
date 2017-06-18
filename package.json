@@ -1,12 +1,9 @@
 {
   "name": "cc.io.format.tar",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "title": "IO TAR Format Module",
   "description": "IO module that implements TAR stream support.",
-  "bugs": null,
   "license": "Apache-2.0",
-  "author": null,
-  "contributors": null,
   "main": "tar.js",
   "pkxDependencies": [
     "cc.type.0.1",

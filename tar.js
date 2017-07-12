@@ -48,7 +48,7 @@
             }
             this.size = readLong(header, 124, 12);
             this.checksum = readInt(header, 148, 8);
-            this.isValid = validateChecksum(header);
+            this.isValid = header && header.length > 0? validateChecksum(header) : false;
 
             if (this.name.substr(this.name.length - 1) == "/") {
                 this.name = this.name.substr(0, this.name.length - 1);
